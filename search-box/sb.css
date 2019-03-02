@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: rgb(69, 142, 211);
+}
+.searchbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #2f3640;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+.searchbox:hover > .searchtxt {
+  width: 240px;
+  padding: 0 6px;
+}
+.searchbox:hover > .sbtn {
+  background: white;
+}
+.sbtn {
+  color: rgb(69, 142, 211);
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchtxt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0px;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
